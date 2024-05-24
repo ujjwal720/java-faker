@@ -114,4 +114,8 @@ public class Address {
     public String fullAddress() {
         return faker.fakeValuesService().resolve("address.full_address", this, faker);
     }
+
+    public String CarsModel{
+        
+    }
 }
